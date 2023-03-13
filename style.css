@@ -1,6 +1,15 @@
+body{
+	background: #cccccc
+}
 p{
 	text-align: center;
 } 
-body{
-	background-color: #69a0bb;
+em strong{
+	color: 0000ff;
+}
+h1{ 
+	color: #00ff00;
+} 
+#banner {
+    width: 100%;
 }
