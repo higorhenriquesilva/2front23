@@ -29,7 +29,23 @@ nav{
     text-align: center;
     width: 30%;
     vertical-align: top;
+    border: 2px solid#000;
+    border-radius: 10px;
+    margin: 0 1%;
+    padding: 30px 0;
 }
+
+nav a:hover{
+    color: #0051ff;
+    text-decoration: underline;
+}
+.produtos li:hover{
+    border-color: #0051ff;
+}
+
+
+
+
 .produtos h2{
     font-size: 30px;
     font-weight: bold;
@@ -40,4 +56,10 @@ nav{
 }
 .produtos .desc{
     font-size: 18px;
+}
+.produtos li:active {
+       border-color: black;
+}
+.produtos li:houver h2{
+       font-size: 35px;
 }
