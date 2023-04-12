@@ -1,50 +1,46 @@
 body{
-    background-color:#a70000;
+    background-color:#000000;
 }
 nav li{
     display: inline-block;
     padding: 10px;
 }
-nav{
+nav li a{
         text-decoration: none ;
-        color:#ff0000;
+        color:#000000;
         font-size: 22px;
         font-weight: bold;
         text-transform: uppercase;
+
 }
 header{
-    background: #ff0000
-    padding: 20px 0;
+    background-color: #ffffff;
+    padding: 20px;
+
 }
 .content{
     width:  940px;
     margin:0 auto;
-}
-nav{
-    float:right;
-    margin-top: 70px;
 }
 .produtos li{
     display: inline-block;
     text-align: center;
     width: 30%;
     vertical-align: top;
-    border: 2px solid#000;
+    border: 2px solid #000000;
     border-radius: 10px;
     margin: 0 1%;
     padding: 30px 0;
+
 }
 
 nav a:hover{
-    color: #0051ff;
+    color: #ff0000;
     text-decoration: underline;
 }
 .produtos li:hover{
-    border-color: #0051ff;
+    border-color: #000000;
 }
-
-
-
 
 .produtos h2{
     font-size: 30px;
@@ -62,4 +58,10 @@ nav a:hover{
 }
 .produtos li:houver h2{
        font-size: 35px;
+}
+ footer{
+    text-align: center;
+    background:  url("imafens/bg.jpg");
+    padding: 40px 0;
+    color: #ffffff
 }
