@@ -1,67 +1,103 @@
 body{
-    background-color:#000000;
+    background-color: black;
+    color: white;
 }
+
+header{
+    padding: 20px 0;
+    background-color: #bbbbbb;
+}
+
+nav{
+    
+    float: right;
+    margin-top: 130px;
+    margin-right: 120px;
+}
+
+nav li a{
+    
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 nav li{
+    transition: 0.3s;
     display: inline-block;
     padding: 10px;
 }
-nav li a{
-        text-decoration: none ;
-        color:#000000;
-        font-size: 22px;
-        font-weight: bold;
-        text-transform: uppercase;
-
-}
-header{
-    background-color: #ffffff;
-    padding: 20px;
-
-}
-.content{
-    width:  940px;
-    margin:0 auto;
-}
-.produtos li{
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    border: 2px solid #000000;
-    border-radius: 10px;
-    margin: 0 1%;
-    padding: 30px 0;
-
-}
 
 nav a:hover{
-    color: #ff0000;
-    text-decoration: underline;
+
+    color: rgb(10, 239, 255);
 }
+
+nav li:hover{
+    transform: scale(1.05);
+}
+
+.caixa{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.produtos li{
+    transition: 0.5s;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 0 1%;
+    padding: 40px 0;
+}
+
+
 .produtos li:hover{
-    border-color: #000000;
+    border-color: rgb(0, 255, 179);
+    transform: scale(1.05);
 }
+
+.produtos li:active{
+    color: green;
+}
+
 
 .produtos h2{
     font-size: 30px;
     font-weight: bold;
 }
+
 .produtos .preco{
     font-size: 22px;
     font-weight: bold;
 }
+
 .produtos .desc{
     font-size: 18px;
 }
-.produtos li:active {
-       border-color: black;
-}
-.produtos li:houver h2{
-       font-size: 35px;
-}
- footer{
+
+.content{
+    padding: 20px;
     text-align: center;
-    background:  url("imafens/bg.jpg");
-    padding: 40px 0;
-    color: #ffffff
+}
+
+#logofooter{
+    position: relative;
+    right: 380px;
+    top: 25px;
+}
+
+footer{
+    background: url("imagens/bg.jpg");
+    color: rgb(255, 254, 254);
+    text-align: center;
+}
+
+footer p{
+    padding: 10px;
 }
