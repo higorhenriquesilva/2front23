@@ -1,120 +1,91 @@
 body{
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
 }
-
-header{
-    padding: 20px 0;
-    background-color: #bbbbbb;
-}
-
-nav{
-    
-    float: right;
-    margin-top: 130px;
-    margin-right: 120px;
-}
-
-nav li a{
-    
-    color: black;
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: b￼old;
-    text-transform: uppercase;
-}
-
 nav li{
-    transition: 0.3s;
     display: inline-block;
     padding: 10px;
 }
-
+nav li a{
+    text-decoration: none;
+    color: #002fff;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 nav a:hover{
-
-    color: rgb(10, 239, 255);
+    color: #000000;
 }
-
-nav li:hover{
-    transform: scale(1.05);
+header{
+    background: #ffffff;
+    padding: 20px;
 }
-
-.caixa{
+.content{
     width: 940px;
-    margin: 0 auto;
+    margin:0 auto;
 }
-
+nav{
+    float: right;
+    margin-top: 60px;
+}
 .produtos li{
     transition: 0.5s;
     display: inline-block;
     text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    border: 2px solid white;
-    border-radius: 10px;
+    border: 2px solid #0004ff;
+    border-radius: 60px;
     margin: 0 1%;
-    padding: 40px 0;
+    margin-top: 60px;
 }
-
-
+.produtos li{
+    transition: 0.5s;
+    display: inline-block;
+    text-align: center;
+    padding: 30px 0;
+}
 .produtos li:hover{
-    border-color: rgb(0, 255, 179);
+    border-color: #ffffff;
     transform: scale(1.05);
 }
-
-.produtos li:active{
-    color: green;
-}
-
-
 .produtos h2{
     font-size: 30px;
     font-weight: bold;
 }
-
 .produtos .preco{
     font-size: 22px;
     font-weight: bold;
 }
-
-.produtos .desc{
-    font-size: 18px;
+.produtos li:active{
+    border-color: #ffffff;
 }
-
-.content{
+.produtos li:hover h2{
+    font-size: 30px;
 }
-
-#logofooter{
-    position: relative;
-    right: 380px;
-    top: 25px;
-}
-
 footer{
-    background: url("imagens/bg.jpg");
-    color: rgb(255, 254, 254);
     text-align: center;
-    padding: 40px 0;
-
+    background-color: #ffffff;
+    color: #000;
+    padding: 30px;
 }
-
+main{
+    margin-bottom: 90px;
+}
 form{
-    margin: 40px 0 q;
+    margin: 30px 0;
 }
-
-
 label{
-    font-size: 25px;
-    width: 100px;
+    font-size: 18px;
+    width: 80px;
     display: inline-block;
-    
 }
 input{
-     padding: 10px 25px;
-     width: 50%;
+    padding: 5px 10px;
+    width: 50%;
 }
 button{
-      display: inline-block;
-      width: 150px;
-      padding: 10px;
+    display: inline-block;
+    width: 150px;
+    padding: 5px;
 }

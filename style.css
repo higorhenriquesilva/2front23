@@ -1,83 +1,41 @@
 body{
-    background-color: black;
-    color: white;
+	background: #000000;
 }
-
-header{
-    padding: 20px 0;
-    background-color: #bbbbbb;
-}
-
-nav{
-    float: right;
-    margin-top: 140px;
-    margin-right: 150px;
-}
-
-nav li a{
-    color: black;
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-nav li{
-    display: inline-block;
-    padding: 4px;
-}
-
-nav a:hover{
-    color: gray;
-}
-
-.caixa{
-    width: 940px;
-    margin: 0 auto;
-}
-
-.barbeariamendes{
-    text-align: center;
-    font-size: 30px;
-    padding: 0;
-}
-
 p,.centralizar{
-	
 	text-align: center;
 }
-
 em strong{
-	color: #ff0000;
+	color: #ffffff;
 }
-
-h1{
-	padding: 20px;
-	font-size: 40px;
-}
-
 h1,h2{
-	color: white;
-	text-align: center;
+	color: #4402dd;
 }
-
+ul{
+	color: #adadad;
+}
+p{
+	color: rgb(192, 192, 192);
+}
 #banner {
     width: 100%;
-    height: 600px;
+	height: 85%;
 }
-
 .items{
-	list-style: none;
-	font-style: italic;
+		font-style: italic;
+		list-style:  none;
+		margin-left: 40%;
+		font-size: 20px;
 }
-
-#benefícios{
-	width: 50%;
+#beneficios{
+		width: 70%;
 }
-
-.ulbody{
+ul{
 	display: inline-block;
 	width: 20%;
-	margin-right: 15%;
+	margin-right: 5%;
 	vertical-align:top;
+}
+.subtitulo{
+	display: flex;
+	margin-left: 10%;
 }
